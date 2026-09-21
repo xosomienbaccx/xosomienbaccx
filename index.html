@@ -1,0 +1,610 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Xổ Số Miền Bắc - Kết Quả XSMB, Tra Cứu Và Thống Kê</title>
+
+  <meta name="description" content="Xổ Số Miền Bắc cập nhật kết quả XSMB, XSMT, XSMN; hỗ trợ tra cứu theo ngày, dò vé, lịch sử và thống kê dữ liệu xổ số.">
+
+  <meta name="robots" content="index,follow">
+
+  <link rel="canonical" href="https://YOUR-USERNAME.github.io/xosomienbaccx/">
+
+  <style>
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      font-family: Arial, Helvetica, sans-serif;
+      line-height: 1.6;
+      background: #f5f7fa;
+      color: #222;
+    }
+
+    a {
+      color: inherit;
+      text-decoration: none;
+    }
+
+    .container {
+      width: 92%;
+      max-width: 1180px;
+      margin: auto;
+    }
+
+    header {
+      background: #b40000;
+      color: #fff;
+    }
+
+    .topbar {
+      padding: 18px 0;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 20px;
+      flex-wrap: wrap;
+    }
+
+    .logo {
+      font-size: 28px;
+      font-weight: 700;
+    }
+
+    .logo span {
+      display: block;
+      font-size: 13px;
+      font-weight: 400;
+      opacity: .9;
+      margin-top: 2px;
+    }
+
+    nav {
+      background: #8f0000;
+    }
+
+    nav ul {
+      list-style: none;
+      display: flex;
+      flex-wrap: wrap;
+    }
+
+    nav li a {
+      display: block;
+      padding: 13px 16px;
+      color: #fff;
+      font-size: 14px;
+      font-weight: 600;
+    }
+
+    nav li a:hover {
+      background: #6f0000;
+    }
+
+    .hero {
+      background: #fff;
+      padding: 34px 0;
+      border-bottom: 1px solid #ddd;
+    }
+
+    .hero h1 {
+      font-size: 32px;
+      color: #a40000;
+      margin-bottom: 12px;
+    }
+
+    .hero p {
+      max-width: 850px;
+      color: #555;
+      font-size: 16px;
+    }
+
+    .quick-links {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 10px;
+      margin-top: 22px;
+    }
+
+    .quick-links a {
+      background: #b40000;
+      color: #fff;
+      padding: 10px 16px;
+      border-radius: 6px;
+      font-size: 14px;
+      font-weight: 600;
+    }
+
+    main {
+      padding: 30px 0;
+    }
+
+    .grid {
+      display: grid;
+      grid-template-columns: 2fr 1fr;
+      gap: 24px;
+    }
+
+    .card {
+      background: #fff;
+      border: 1px solid #e0e0e0;
+      border-radius: 8px;
+      margin-bottom: 22px;
+      overflow: hidden;
+    }
+
+    .card h2 {
+      background: #b40000;
+      color: #fff;
+      padding: 13px 16px;
+      font-size: 20px;
+    }
+
+    .card-content {
+      padding: 18px;
+    }
+
+    .result-list {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      gap: 12px;
+    }
+
+    .result-list a {
+      border: 1px solid #ddd;
+      padding: 12px;
+      border-radius: 6px;
+      background: #fafafa;
+      font-weight: 600;
+    }
+
+    .result-list a:hover {
+      border-color: #b40000;
+      color: #b40000;
+    }
+
+    .tool-grid {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      gap: 14px;
+    }
+
+    .tool {
+      padding: 16px;
+      background: #fafafa;
+      border: 1px solid #ddd;
+      border-radius: 6px;
+    }
+
+    .tool h3 {
+      margin-bottom: 6px;
+      color: #a40000;
+      font-size: 17px;
+    }
+
+    .region-links {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 14px;
+    }
+
+    .region {
+      border: 1px solid #ddd;
+      border-radius: 6px;
+      padding: 15px;
+      background: #fff;
+    }
+
+    .region h3 {
+      color: #b40000;
+      margin-bottom: 10px;
+    }
+
+    .region ul {
+      list-style: none;
+    }
+
+    .region li {
+      margin-bottom: 7px;
+    }
+
+    .region li a {
+      color: #444;
+    }
+
+    .region li a:hover {
+      color: #b40000;
+    }
+
+    .sidebar-list {
+      list-style: none;
+    }
+
+    .sidebar-list li {
+      padding: 10px 0;
+      border-bottom: 1px solid #eee;
+    }
+
+    .sidebar-list li:last-child {
+      border-bottom: 0;
+    }
+
+    .about {
+      margin-top: 25px;
+    }
+
+    .about p {
+      margin-bottom: 12px;
+    }
+
+    footer {
+      margin-top: 30px;
+      background: #222;
+      color: #ddd;
+      padding: 30px 0;
+    }
+
+    footer h3 {
+      color: #fff;
+      margin-bottom: 10px;
+    }
+
+    footer a {
+      color: #fff;
+    }
+
+    .footer-grid {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 24px;
+    }
+
+    .copyright {
+      margin-top: 25px;
+      padding-top: 18px;
+      border-top: 1px solid #444;
+      font-size: 13px;
+      color: #aaa;
+    }
+
+    @media (max-width: 900px) {
+      .grid,
+      .footer-grid,
+      .region-links {
+        grid-template-columns: 1fr;
+      }
+
+      .result-list,
+      .tool-grid {
+        grid-template-columns: 1fr;
+      }
+
+      .hero h1 {
+        font-size: 25px;
+      }
+
+      nav ul {
+        flex-direction: column;
+      }
+    }
+  </style>
+</head>
+
+<body>
+
+<header>
+  <div class="container topbar">
+    <div class="logo">
+      XỔ SỐ MIỀN BẮC
+      <span>Kết quả - Tra cứu - Thống kê xổ số</span>
+    </div>
+
+    <div>
+      Website chính:
+      <a href="https://xosomienbac.cx/" target="_blank" rel="noopener">
+        xosomienbac.cx
+      </a>
+    </div>
+  </div>
+</header>
+
+<nav>
+  <div class="container">
+    <ul>
+      <li><a href="https://xosomienbac.cx/">Trang chủ</a></li>
+      <li><a href="https://xosomienbac.cx/">XSMB</a></li>
+      <li><a href="https://xosomienbac.cx/xsmt/">XSMT</a></li>
+      <li><a href="https://xosomienbac.cx/xsmn/">XSMN</a></li>
+      <li><a href="https://xosomienbac.cx/do-ve-so/">Dò vé số</a></li>
+      <li><a href="https://xosomienbac.cx/thong-ke-tong-hop/">Thống kê</a></li>
+      <li><a href="https://xosomienbac.cx/tin-tuc/">Tin tức</a></li>
+    </ul>
+  </div>
+</nav>
+
+<section class="hero">
+  <div class="container">
+    <h1>Xổ Số Miền Bắc - Kết Quả XSMB, Tra Cứu Và Thống Kê</h1>
+
+    <p>
+      Xổ Số Miền Bắc hỗ trợ người dùng theo dõi kết quả XSMB,
+      tra cứu dữ liệu theo ngày, dò vé, xem lịch sử xổ số và
+      tham khảo các bảng thống kê được tổng hợp từ dữ liệu đã công bố.
+    </p>
+
+    <div class="quick-links">
+      <a href="https://xosomienbac.cx/">XSMB hôm nay</a>
+      <a href="https://xosomienbac.cx/do-ve-so/">Dò vé số</a>
+      <a href="https://xosomienbac.cx/so-ket-qua/">Sổ kết quả</a>
+      <a href="https://xosomienbac.cx/thong-ke-tong-hop/">Thống kê xổ số</a>
+    </div>
+  </div>
+</section>
+
+<main class="container">
+
+  <div class="grid">
+
+    <section>
+
+      <div class="card">
+        <h2>Kết quả XSMB các ngày gần nhất</h2>
+        <div class="card-content result-list">
+          <a href="https://xosomienbac.cx/xsmb-20-09-2026/">
+            XSMB 20-09-2026
+          </a>
+
+          <a href="https://xosomienbac.cx/xsmb-19-09-2026/">
+            XSMB 19-09-2026
+          </a>
+
+          <a href="https://xosomienbac.cx/xsmb-18-09-2026/">
+            XSMB 18-09-2026
+          </a>
+
+          <a href="https://xosomienbac.cx/xsmb-17-09-2026/">
+            XSMB 17-09-2026
+          </a>
+        </div>
+      </div>
+
+      <div class="card">
+        <h2>Công cụ tra cứu xổ số</h2>
+
+        <div class="card-content tool-grid">
+
+          <div class="tool">
+            <h3>Dò vé số</h3>
+            <p>
+              Kiểm tra bộ số theo ngày và khu vực để hỗ trợ đối chiếu
+              kết quả thuận tiện hơn.
+            </p>
+            <a href="https://xosomienbac.cx/do-ve-so/">
+              Xem công cụ →
+            </a>
+          </div>
+
+          <div class="tool">
+            <h3>Sổ kết quả</h3>
+            <p>
+              Tra cứu lại dữ liệu kết quả xổ số theo ngày,
+              theo miền và từng đài.
+            </p>
+            <a href="https://xosomienbac.cx/so-ket-qua/">
+              Tra cứu →
+            </a>
+          </div>
+
+          <div class="tool">
+            <h3>Sổ đầu đuôi</h3>
+            <p>
+              Tổng hợp loto đầu - đuôi giúp người dùng theo dõi
+              dữ liệu theo từng kỳ quay.
+            </p>
+            <a href="https://xosomienbac.cx/so-dau-duoi-mb/">
+              Xem dữ liệu →
+            </a>
+          </div>
+
+          <div class="tool">
+            <h3>Thống kê tổng hợp</h3>
+            <p>
+              Xem các bảng thống kê được xây dựng dựa trên
+              dữ liệu các kỳ xổ số đã công bố.
+            </p>
+            <a href="https://xosomienbac.cx/thong-ke-tong-hop/">
+              Xem thống kê →
+            </a>
+          </div>
+
+        </div>
+      </div>
+
+      <div class="card">
+        <h2>Kết quả xổ số theo khu vực</h2>
+
+        <div class="card-content region-links">
+
+          <div class="region">
+            <h3>XSMB - Miền Bắc</h3>
+            <ul>
+              <li><a href="https://xosomienbac.cx/">Xổ số miền Bắc</a></li>
+              <li><a href="https://xosomienbac.cx/xo-so-ha-noi/">Hà Nội</a></li>
+              <li><a href="https://xosomienbac.cx/xo-so-hai-phong/">Hải Phòng</a></li>
+              <li><a href="https://xosomienbac.cx/xo-so-quang-ninh/">Quảng Ninh</a></li>
+            </ul>
+          </div>
+
+          <div class="region">
+            <h3>XSMT - Miền Trung</h3>
+            <ul>
+              <li><a href="https://xosomienbac.cx/xsmt/">Xổ số miền Trung</a></li>
+              <li><a href="https://xosomienbac.cx/xo-so-da-nang/">Đà Nẵng</a></li>
+              <li><a href="https://xosomienbac.cx/xo-so-phu-yen/">Phú Yên</a></li>
+              <li><a href="https://xosomienbac.cx/xo-so-khanh-hoa/">Khánh Hòa</a></li>
+            </ul>
+          </div>
+
+          <div class="region">
+            <h3>XSMN - Miền Nam</h3>
+            <ul>
+              <li><a href="https://xosomienbac.cx/xsmn/">Xổ số miền Nam</a></li>
+              <li><a href="https://xosomienbac.cx/xo-so-ho-chi-minh/">Hồ Chí Minh</a></li>
+              <li><a href="https://xosomienbac.cx/xo-so-can-tho/">Cần Thơ</a></li>
+              <li><a href="https://xosomienbac.cx/xo-so-soc-trang/">Sóc Trăng</a></li>
+            </ul>
+          </div>
+
+        </div>
+      </div>
+
+      <div class="card about">
+        <h2>Giới thiệu Xổ Số Miền Bắc</h2>
+
+        <div class="card-content">
+          <p>
+            Xổ Số Miền Bắc tại
+            <a href="https://xosomienbac.cx/">
+              <strong>xosomienbac.cx</strong>
+            </a>
+            là hệ thống thông tin hỗ trợ tra cứu kết quả xổ số,
+            dữ liệu lịch sử và các công cụ thống kê dành cho người dùng
+            quan tâm đến XSMB, XSMT và XSMN.
+          </p>
+
+          <p>
+            Nội dung trọng tâm là xổ số miền Bắc, bên cạnh đó người dùng
+            có thể tra cứu theo ngày, theo đài, dò vé và xem lại dữ liệu
+            nhiều kỳ mở thưởng.
+          </p>
+
+          <p>
+            Các nội dung thống kê được trình bày dựa trên dữ liệu đã công bố,
+            không được xem là cam kết hay bảo đảm cho kết quả trong tương lai.
+          </p>
+        </div>
+      </div>
+
+    </section>
+
+    <aside>
+
+      <div class="card">
+        <h2>Thống kê nổi bật</h2>
+        <div class="card-content">
+          <ul class="sidebar-list">
+            <li>
+              <a href="https://xosomienbac.cx/bang-dac-biet-tuan/">
+                Bảng đặc biệt tuần
+              </a>
+            </li>
+
+            <li>
+              <a href="https://xosomienbac.cx/bang-dac-biet-thang/">
+                Bảng đặc biệt tháng
+              </a>
+            </li>
+
+            <li>
+              <a href="https://xosomienbac.cx/bang-dac-biet-nam/">
+                Bảng đặc biệt năm
+              </a>
+            </li>
+
+            <li>
+              <a href="https://xosomienbac.cx/thong-ke-00-99/">
+                Thống kê 00 - 99
+              </a>
+            </li>
+
+            <li>
+              <a href="https://xosomienbac.cx/thong-ke-tan-suat/">
+                Thống kê tần suất
+              </a>
+            </li>
+
+            <li>
+              <a href="https://xosomienbac.cx/lo-gan-mien-bac/">
+                Lô gan miền Bắc
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="card">
+        <h2>Thông tin website</h2>
+        <div class="card-content">
+          <p>
+            <strong>Website:</strong><br>
+            <a href="https://xosomienbac.cx/">
+              https://xosomienbac.cx/
+            </a>
+          </p>
+
+          <p>
+            <strong>Biên tập:</strong><br>
+            Trương Gia Lộc
+          </p>
+
+          <p>
+            <strong>Email:</strong><br>
+            contact@xosomienbac.cx
+          </p>
+
+          <p>
+            <strong>Điện thoại:</strong><br>
+            +84 925 330 405
+          </p>
+        </div>
+      </div>
+
+    </aside>
+
+  </div>
+
+</main>
+
+<footer>
+  <div class="container">
+
+    <div class="footer-grid">
+
+      <div>
+        <h3>Xổ Số Miền Bắc</h3>
+        <p>
+          Kết quả, tra cứu và thống kê xổ số ba miền.
+        </p>
+      </div>
+
+      <div>
+        <h3>Thông tin</h3>
+        <p><a href="https://xosomienbac.cx/ve-chung-toi/">Về chúng tôi</a></p>
+        <p><a href="https://xosomienbac.cx/lien-he/">Liên hệ</a></p>
+        <p><a href="https://xosomienbac.cx/dieu-khoan/">Điều khoản</a></p>
+        <p><a href="https://xosomienbac.cx/bao-mat/">Chính sách bảo mật</a></p>
+      </div>
+
+      <div>
+        <h3>Liên hệ</h3>
+        <p>458 P. Minh Khai, KĐT Times City, Vĩnh Tuy, Hà Nội</p>
+        <p>+84 925 330 405</p>
+        <p>contact@xosomienbac.cx</p>
+      </div>
+
+    </div>
+
+    <div class="copyright">
+      © 2026 Xổ Số Miền Bắc. Nội dung phục vụ mục đích tra cứu thông tin.
+    </div>
+
+  </div>
+</footer>
+
+</body>
+</html>
